@@ -1,5 +1,37 @@
-def area (a, b):
-return a * b
+def area(a, b):
+    '''
+    Вычисляет площадь прямоугольника.
+    
+    Args:
+        a (float): Длина первой стороны прямоугольника
+        b (float): Длина второй стороны прямоугольника
+    
+    Returns:
+        float: Площадь прямоугольника
+    
+    Example:
+        >>> area(5, 3)
+        15.0
+        >>> area(2.5, 4)
+        10.0
+    '''
+    return a * b
 
-def perimeter (a, b):
-return 2 8 ( a + b )
+def perimeter(a, b):
+    '''
+    Вычисляет периметр прямоугольника.
+    
+    Args:
+        a (float): Длина первой стороны прямоугольника
+        b (float): Длина второй стороны прямоугольника
+    
+    Returns:
+        float: Периметр прямоугольника
+    
+    Example:
+        >>> perimeter(5, 3)
+        16.0
+        >>> perimeter(2.5, 4)
+        13.0
+    '''
+    return 2 * (a + b)
