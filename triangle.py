@@ -1,5 +1,38 @@
-def area (a, h):
-return a * h / 2
+def area(a, h):
+    '''
+    Вычисляет площадь треугольника.
+    
+    Args:
+        a (float): Длина основания треугольника
+        h (float): Высота треугольника, опущенная к основанию
+    
+    Returns:
+        float: Площадь треугольника
+    
+    Example:
+        >>> area(10, 5)
+        25.0
+        >>> area(4, 3)
+        6.0
+    '''
+    return a * h / 2
 
-def perimeter (a, b, c):
-return a + b + c
+def perimeter(a, b, c):
+    '''
+    Вычисляет периметр треугольника.
+    
+    Args:
+        a (float): Длина первой стороны треугольника
+        b (float): Длина второй стороны треугольника
+        c (float): Длина третьей стороны треугольника
+    
+    Returns:
+        float: Периметр треугольника
+    
+    Example:
+        >>> perimeter(3, 4, 5)
+        12.0
+        >>> perimeter(5, 5, 5)
+        15.0
+    '''
+    return a + b + c
